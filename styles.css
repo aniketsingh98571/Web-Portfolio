@@ -16,7 +16,7 @@ body {
 }
 
 .full-scale {
-    background-image: url(../images/Full-scale.jpg);
+    background-image: url(Full-scale.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
