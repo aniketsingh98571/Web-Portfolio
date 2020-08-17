@@ -66,6 +66,7 @@ body {
 
     width: 80%;
     margin: auto;
+    box-sizing:border-box;
 
 }
 
