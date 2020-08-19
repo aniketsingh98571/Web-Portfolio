@@ -102,6 +102,7 @@ html {
 
 .container-1 {
     background: #323232;
+    padding-top: 10px;
 
 }
 
@@ -303,6 +304,181 @@ html {
     line-height: 30px;
     font-weight: 300;
 }
+
+#skills {
+    padding-top: 15px;
+    background: #121214;
+}
+
+.section-title h1 {
+    color: #fff;
+    font-size: 2.8rem;
+    margin-left: 15px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.section-title h1:before {
+    content: '';
+    width: 120px;
+    height: 3px;
+    background: #ec1d3e;
+    top: 100%;
+    left: 0;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.section-title h1:after {
+    content: '';
+    width: 70px;
+    height: 3px;
+    background: #ec1d3e;
+    top: 100%;
+    left: 0;
+    position: absolute;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+.skills-1 {
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.skills-1 h6 {
+    color: #de033b;
+    font-size: 16px;
+}
+
+.skills-1 h2 {
+    color: #fff;
+    font-size: 25px;
+    line-height: 2rem;
+    margin-bottom: 30px
+}
+
+.skill-items h5 {
+    line-height: 40px;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.skill-items {
+    margin-bottom: 30px;
+    margin-right: 100px;
+}
+
+
+.progress {
+    background: #e3e3e3;
+    height: 4px;
+    border-radius: 2px;
+    width: 100%;
+    position: relative;
+}
+
+.progress-in {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-radius: 1px;
+    background: #ec183e;
+
+}
+
+.skill-percent {
+    line-height: 40px;
+    position: absolute;
+    right: 0;
+    color: #fff;
+    top: -40px;
+    font-weight: 400;
+}
+
+.container-2 {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.heading {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.card {
+    width: 20%;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    transition: 0.3s;
+
+}
+
+.card-header {
+    text-align: center;
+    padding: 50px 10px;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    color: #fff;
+}
+
+.card-body {
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.card-body .btn {
+    display: block;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 10px 5px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+#projects {
+    background: #323232;
+}
+
+@media screen and (max-width:1000px) {
+    .card {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .container {
+        width: 100%;
+    }
+
+    .heading {
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .card {
+        width: 80%;
+    }
+}
+
 
 @media only screen and (min-width:768px) {
     .timeline1 ul li {
