@@ -6,16 +6,13 @@ p {
   margin: 0;
   padding: 0;
 }
-
 body {
   margin: 0;
   padding: 0;
 }
-
 html {
   box-sizing: border-box;
 }
-
 .full-scale {
   background-image: url(Full-scale.jpg);
   height: 100vh;
@@ -29,17 +26,14 @@ html {
   align-items: center;
   padding: 0 20px;
 }
-
 .full-scale h1 {
   font-size: 5rem;
   font-family: "Sacramento", cursive;
 }
-
 .full-scale p {
   font-size: 1.8rem;
   margin-bottom: 5px;
 }
-
 .full-scale .button {
   color: #ffffff;
   font-size: 1.5rem;
@@ -50,19 +44,15 @@ html {
   opacity: 0.7;
   text-decoration: none;
 }
-
 .full-scale .button:hover {
   background: red;
   color: #ffffff;
 }
-
 .full-scale .button:active {
   background: red;
   color: black;
 }
-
 #about {
-  /* border: 2px solid red;*/
   width: 80%;
   margin: 0 auto;
   display: flex;
@@ -71,55 +61,40 @@ html {
   justify-content: center;
   text-align: center;
 }
-
 .para p {
-  /*border: 2px solid blue;*/
-
   text-align: justify;
   margin-top: 10px;
   text-align: center;
   color: #ffffff;
 }
-
 .para {
   width: 50%;
-  /*border: 2px solid yellow;*/
   margin-right: 20px;
 }
-
-.image img {
-  /*border: 2px solid green;*/
-}
-
 .container-1 {
   background: #323232;
   padding-top: 10px;
 }
-
 .container-1 h2 {
   font-size: 2rem;
   margin-bottom: 5px;
   color: #b3b3ff;
   text-align: center;
 }
-
 .container-1 h3 {
   font-size: 1.3rem;
   margin-bottom: 2px;
   color: #b3b3ff;
   text-align: center;
 }
-
 #education h2 {
   text-align: center;
   font-size: 2rem;
   color: #b3b3ff;
 }
-
 #education p {
   color: #ffffff;
 }
-
 #education .time {
   width: 30%;
   border-radius: 18px;
@@ -128,24 +103,20 @@ html {
   margin: 0;
   padding: 8px 16px;
 }
-
 #education .time h4 {
   margin: 0;
   padding: 0;
   text-align: center;
 }
-
 #education {
   background: #323232;
 }
-
 .timeline {
   position: relative;
   margin: 0px auto;
   padding: 40px 0;
   width: 1000px;
 }
-
 .timeline:before {
   content: "";
   position: absolute;
@@ -154,12 +125,10 @@ html {
   height: 90%;
   background: #c5c5c5;
 }
-
 .timeline ul {
   margin: 0;
   padding: 0;
 }
-
 .timeline ul li {
   list-style: none;
   position: relative;
@@ -167,23 +136,19 @@ html {
   padding: 20px 40px;
   box-sizing: border-box;
 }
-
 .timeline ul li:nth-child(odd) {
   float: left;
   text-align: right;
   clear: both;
 }
-
 .timeline ul li:nth-child(even) {
   float: right;
   text-align: left;
   clear: both;
 }
-
 .content {
   padding-bottom: 20px;
 }
-
 .timeline ul li:nth-child(odd):before {
   content: "";
   position: absolute;
@@ -195,7 +160,6 @@ html {
   border-radius: 50%;
   box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.2);
 }
-
 .timeline ul li:nth-child(even):before {
   content: "";
   position: absolute;
@@ -207,36 +171,30 @@ html {
   border-radius: 50%;
   box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.2);
 }
-
 .timeline ul li h3 {
   margin: 0;
   padding: 0;
   font-weight: 600;
   color: rgba(233, 33, 99, 1);
 }
-
 .timeline ul li p {
   margin: 10px 0 0;
   padding: 0;
 }
-
 .timeline1 .date h4 {
   margin: 0;
   padding: 0;
 }
-
 #volunteering {
   margin-top: 0;
   background-color: #101010;
   padding-top: 20px;
 }
-
 #volunteering h2 {
   color: #a3a3ff;
   font-size: 2rem;
   text-align: center;
 }
-
 .container {
   width: 100%;
   display: flex;
@@ -244,7 +202,6 @@ html {
   background: #101010;
   color: white;
 }
-
 .timeline1 {
   width: 80%;
   height: auto;
@@ -252,18 +209,15 @@ html {
   margin: 0 auto;
   position: relative;
 }
-
 .timeline1 ul {
   list-style: none;
 }
-
 .timeline-content .date {
   font-size: 13px;
   font-weight: 500;
   margin-bottom: 10px;
   letter-spacing: 2px;
 }
-
 .timeline1 ul li {
   padding: 20px;
   background-color: #1e1f22;
@@ -271,7 +225,6 @@ html {
   border-radius: 10px;
   margin-bottom: 20px;
 }
-
 .timeline1 ul li:last-child {
   margin-bottom: 0;
 }
