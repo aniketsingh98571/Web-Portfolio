@@ -367,7 +367,10 @@ html {
   background: linear-gradient(to right, #ff416c, #ff4b2b);
   color: #fff;
 }
-
+.image img{
+  width:200px;
+  height: auto;
+}
 .card-body {
   padding: 30px 20px;
   text-align: center;
